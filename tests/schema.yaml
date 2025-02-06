@@ -1,0 +1,11 @@
+version: 2
+data_tests:
+  - name: assert_magnitude_not_null
+    description: >
+      All earthquakes must have a magnitude set.
+  - name: assert_magnitude_major
+    description: >
+      Major earthquakes cant be less than 1.
+  - name: assert_magnitude_minor
+    description: >
+      Minor earthquakes cant be more than 1.

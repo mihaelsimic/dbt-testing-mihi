@@ -1,0 +1,7 @@
+# metrics:
+#   - name: magnitude
+#     type: simple
+#     label: Magnitude
+#     type_params:
+#       measure:
+#         name: SUM
