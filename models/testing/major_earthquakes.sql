@@ -5,7 +5,7 @@ with earthquakes as (
     place as area,
     date
   from
-    weba
+    dbt-demo-earthquakes
 )
 select
   *

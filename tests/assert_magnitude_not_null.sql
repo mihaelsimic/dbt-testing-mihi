@@ -1,6 +1,6 @@
 SELECT
     id
 FROM
-    weba
+    dbt-demo-earthquakes
 WHERE
     action_values IS NULL
