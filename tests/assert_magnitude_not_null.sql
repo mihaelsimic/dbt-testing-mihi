@@ -1,6 +1,6 @@
 SELECT
-    id
+    "IDENTIFIER"
 FROM
-    dbt-demo-earthquakes
+    mia-dbt-demo-earthquakes
 WHERE
-    action_values IS NULL
+    "ACTION_VALUES" IS NULL

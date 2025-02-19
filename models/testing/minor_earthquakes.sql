@@ -1,11 +1,11 @@
 with earthquakes as (
     select
-        substr("identifier", 0, 8) as id,
-        action_values as magnitude,
-        place as area,
-        date
+        substr("IDENTIFIER", 0, 8) as identifier,
+        "ACTION_VALUES" as magnitude,
+        "PLACE" as area,
+        "DATE"
     from
-        dbt-demo-earthquakes
+        mia-dbt-demo-earthquakes
 )
 select
     *

@@ -1,5 +1,5 @@
 SELECT
-    id
+    identifier
 FROM
     minor_earthquakes
 WHERE
