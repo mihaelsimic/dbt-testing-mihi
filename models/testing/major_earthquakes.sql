@@ -1,6 +1,6 @@
 with earthquakes as (
   select
-    substr("id", 0, 8) as id,
+    substr("identifier", 0, 8) as id,
     action_values as magnitude,
     place as area,
     date
