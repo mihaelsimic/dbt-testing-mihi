@@ -1,6 +1,6 @@
 SELECT
     identifier
 FROM
-    major_earthquakes
+    "major_earthquakes"
 WHERE
     magnitude < 1

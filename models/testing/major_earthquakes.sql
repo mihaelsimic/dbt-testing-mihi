@@ -5,7 +5,7 @@ with earthquakes as (
     "PLACE" as area,
     "DATE"
   from
-    dbt-demo-earthquakes
+    "mia-dbt-demo-earthquakes"
 )
 select
   *
